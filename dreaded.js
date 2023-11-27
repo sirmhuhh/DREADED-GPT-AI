@@ -446,7 +446,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/rNu536f.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/azhOf4c.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -1322,7 +1322,7 @@ break;
 
 case "speed": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/eXo1v0R.jpeg' }, caption:`𝐂𝐑𝐎𝐖𝐍-𝐀𝐈\n\n𝐒𝐏𝐄𝐄𝐃:${dreadedspeed.toFixed(4)} 𝐦𝐬`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/azhOf4c.jpeg' }, caption:`𝐂𝐑𝐎𝐖𝐍-𝐀𝐈\n\n𝐒𝐏𝐄𝐄𝐃:${dreadedspeed.toFixed(4)} 𝐦𝐬`}); 
  break; 
 
 case "take": {
