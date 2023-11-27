@@ -392,7 +392,7 @@ let cap = `╭════〘 𝐂𝐑𝐎𝐖𝐍 𝐁𝐎𝐓 〙═⊷❍
 ┃✯│Mix
 ┃✯│Ai-img                                                                                                                                                                                                                                                                                     
 ┃✯│Gpt
-┃✯│G
+┃✯│Crown
 ┃✯│DP
 ┃✯│Speed
 ┃✯│Alive
@@ -430,8 +430,8 @@ let cap = `╭════〘 𝐂𝐑𝐎𝐖𝐍 𝐁𝐎𝐓 〙═⊷❍
 ┃✯│Tagall
 ┃✯│Hidetag
 ┃✯│Revoke
-┃✯╰─────────────────❍
-╰══════════════════⊷❍`;
+┃✯╰───────────────❍
+╰════════════════⊷❍`;
 
 if (menu === 'VIDEO') {
 
@@ -446,7 +446,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/eXo1v0R.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/rNu536f.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -455,7 +455,7 @@ client.sendMessage(m.chat, {
                                 showAdAttribution: true,
                                 title: `𝐂𝐑𝐎𝐖𝐍-𝐀𝐈`,
                                 body: `${runtime(process.uptime())}`,
-                                thumbnail: fs.readFileSync('./IMG-20231124-WA0062(1).jpg'),
+                                thumbnail: fs.readFileSync('./IMG-20231127-WA0153.jpg'),
                                 sourceUrl: 'https://wa.me/923195832822?text=ʜᴇʟʟᴏ+𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏+Nihostie+Bot+Mkuu+🥲',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -497,7 +497,7 @@ reply(resultt.stderr)
 
 break;
 
-case "g":
+case "crown":
 const _0x3cfb2e = _0x5913;
 (function (_0x573879, _0x548047) {
     const _0x197f5a = _0x5913, _0x32c565 = _0x573879();
